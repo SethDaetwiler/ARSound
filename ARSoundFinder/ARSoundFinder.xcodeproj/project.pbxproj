@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE54FA7287A3973008031C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FA6287A3973008031C3 /* AppDelegate.swift */; };
+		FCE54FA9287A3973008031C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FA8287A3973008031C3 /* ViewController.swift */; };
+		FCE54FAB287A3973008031C3 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FAA287A3973008031C3 /* Experience.rcproject */; };
+		FCE54FAE287A3973008031C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE54FAC287A3973008031C3 /* Main.storyboard */; };
+		FCE54FB0287A3974008031C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE54FAF287A3974008031C3 /* Assets.xcassets */; };
+		FCE54FB3287A3974008031C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE54FB1287A3974008031C3 /* LaunchScreen.storyboard */; };
+		FCE54FBD287A3974008031C3 /* ARSoundFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FBC287A3974008031C3 /* ARSoundFinderTests.swift */; };
+		FCE54FC7287A3974008031C3 /* ARSoundFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FC6287A3974008031C3 /* ARSoundFinderUITests.swift */; };
+		FCE54FC9287A3974008031C3 /* ARSoundFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FC8287A3974008031C3 /* ARSoundFinderUITestsLaunchTests.swift */; };
+		FCE54FD6287A4348008031C3 /* MicrophoneConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE54FD5287A4348008031C3 /* MicrophoneConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE54FB9287A3974008031C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE54F9B287A3972008031C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE54FA2287A3972008031C3;
+			remoteInfo = ARSoundFinder;
+		};
+		FCE54FC3287A3974008031C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE54F9B287A3972008031C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE54FA2287A3972008031C3;
+			remoteInfo = ARSoundFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE54FA3287A3972008031C3 /* ARSoundFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSoundFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE54FA6287A3973008031C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCE54FA8287A3973008031C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCE54FAA287A3973008031C3 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		FCE54FAD287A3973008031C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE54FAF287A3974008031C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE54FB2287A3974008031C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE54FB8287A3974008031C3 /* ARSoundFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSoundFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE54FBC287A3974008031C3 /* ARSoundFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSoundFinderTests.swift; sourceTree = "<group>"; };
+		FCE54FC2287A3974008031C3 /* ARSoundFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSoundFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE54FC6287A3974008031C3 /* ARSoundFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSoundFinderUITests.swift; sourceTree = "<group>"; };
+		FCE54FC8287A3974008031C3 /* ARSoundFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSoundFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCE54FD5287A4348008031C3 /* MicrophoneConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneConfiguration.swift; sourceTree = "<group>"; };
+		FCE54FD7287A4685008031C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE54FA0287A3972008031C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FB5287A3974008031C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FBF287A3974008031C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE54F9A287A3972008031C3 = {
+			isa = PBXGroup;
+			children = (
+				FCE54FD5287A4348008031C3 /* MicrophoneConfiguration.swift */,
+				FCE54FA5287A3972008031C3 /* ARSoundFinder */,
+				FCE54FBB287A3974008031C3 /* ARSoundFinderTests */,
+				FCE54FC5287A3974008031C3 /* ARSoundFinderUITests */,
+				FCE54FA4287A3972008031C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE54FA4287A3972008031C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE54FA3287A3972008031C3 /* ARSoundFinder.app */,
+				FCE54FB8287A3974008031C3 /* ARSoundFinderTests.xctest */,
+				FCE54FC2287A3974008031C3 /* ARSoundFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE54FA5287A3972008031C3 /* ARSoundFinder */ = {
+			isa = PBXGroup;
+			children = (
+				FCE54FD7287A4685008031C3 /* Info.plist */,
+				FCE54FA6287A3973008031C3 /* AppDelegate.swift */,
+				FCE54FA8287A3973008031C3 /* ViewController.swift */,
+				FCE54FAA287A3973008031C3 /* Experience.rcproject */,
+				FCE54FAC287A3973008031C3 /* Main.storyboard */,
+				FCE54FAF287A3974008031C3 /* Assets.xcassets */,
+				FCE54FB1287A3974008031C3 /* LaunchScreen.storyboard */,
+			);
+			path = ARSoundFinder;
+			sourceTree = "<group>";
+		};
+		FCE54FBB287A3974008031C3 /* ARSoundFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE54FBC287A3974008031C3 /* ARSoundFinderTests.swift */,
+			);
+			path = ARSoundFinderTests;
+			sourceTree = "<group>";
+		};
+		FCE54FC5287A3974008031C3 /* ARSoundFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE54FC6287A3974008031C3 /* ARSoundFinderUITests.swift */,
+				FCE54FC8287A3974008031C3 /* ARSoundFinderUITestsLaunchTests.swift */,
+			);
+			path = ARSoundFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE54FA2287A3972008031C3 /* ARSoundFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE54FCC287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinder" */;
+			buildPhases = (
+				FCE54F9F287A3972008031C3 /* Sources */,
+				FCE54FA0287A3972008031C3 /* Frameworks */,
+				FCE54FA1287A3972008031C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSoundFinder;
+			productName = ARSoundFinder;
+			productReference = FCE54FA3287A3972008031C3 /* ARSoundFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE54FB7287A3974008031C3 /* ARSoundFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE54FCF287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinderTests" */;
+			buildPhases = (
+				FCE54FB4287A3974008031C3 /* Sources */,
+				FCE54FB5287A3974008031C3 /* Frameworks */,
+				FCE54FB6287A3974008031C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE54FBA287A3974008031C3 /* PBXTargetDependency */,
+			);
+			name = ARSoundFinderTests;
+			productName = ARSoundFinderTests;
+			productReference = FCE54FB8287A3974008031C3 /* ARSoundFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE54FC1287A3974008031C3 /* ARSoundFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE54FD2287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinderUITests" */;
+			buildPhases = (
+				FCE54FBE287A3974008031C3 /* Sources */,
+				FCE54FBF287A3974008031C3 /* Frameworks */,
+				FCE54FC0287A3974008031C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE54FC4287A3974008031C3 /* PBXTargetDependency */,
+			);
+			name = ARSoundFinderUITests;
+			productName = ARSoundFinderUITests;
+			productReference = FCE54FC2287A3974008031C3 /* ARSoundFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE54F9B287A3972008031C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FCE54FA2287A3972008031C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FCE54FB7287A3974008031C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FCE54FA2287A3972008031C3;
+					};
+					FCE54FC1287A3974008031C3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FCE54FA2287A3972008031C3;
+					};
+				};
+			};
+			buildConfigurationList = FCE54F9E287A3972008031C3 /* Build configuration list for PBXProject "ARSoundFinder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE54F9A287A3972008031C3;
+			productRefGroup = FCE54FA4287A3972008031C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE54FA2287A3972008031C3 /* ARSoundFinder */,
+				FCE54FB7287A3974008031C3 /* ARSoundFinderTests */,
+				FCE54FC1287A3974008031C3 /* ARSoundFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE54FA1287A3972008031C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE54FB3287A3974008031C3 /* LaunchScreen.storyboard in Resources */,
+				FCE54FB0287A3974008031C3 /* Assets.xcassets in Resources */,
+				FCE54FAE287A3973008031C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FB6287A3974008031C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FC0287A3974008031C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE54F9F287A3972008031C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE54FD6287A4348008031C3 /* MicrophoneConfiguration.swift in Sources */,
+				FCE54FA9287A3973008031C3 /* ViewController.swift in Sources */,
+				FCE54FA7287A3973008031C3 /* AppDelegate.swift in Sources */,
+				FCE54FAB287A3973008031C3 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FB4287A3974008031C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE54FBD287A3974008031C3 /* ARSoundFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE54FBE287A3974008031C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE54FC7287A3974008031C3 /* ARSoundFinderUITests.swift in Sources */,
+				FCE54FC9287A3974008031C3 /* ARSoundFinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE54FBA287A3974008031C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE54FA2287A3972008031C3 /* ARSoundFinder */;
+			targetProxy = FCE54FB9287A3974008031C3 /* PBXContainerItemProxy */;
+		};
+		FCE54FC4287A3974008031C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE54FA2287A3972008031C3 /* ARSoundFinder */;
+			targetProxy = FCE54FC3287A3974008031C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCE54FAC287A3973008031C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE54FAD287A3973008031C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE54FB1287A3974008031C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE54FB2287A3974008031C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE54FCA287A3974008031C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCE54FCB287A3974008031C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE54FCD287A3974008031C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARSoundFinder/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone permission";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE54FCE287A3974008031C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARSoundFinder/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone permission";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCE54FD0287A3974008031C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSoundFinder.app/ARSoundFinder";
+			};
+			name = Debug;
+		};
+		FCE54FD1287A3974008031C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSoundFinder.app/ARSoundFinder";
+			};
+			name = Release;
+		};
+		FCE54FD3287A3974008031C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSoundFinder;
+			};
+			name = Debug;
+		};
+		FCE54FD4287A3974008031C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK6LA98A74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sethdaetwiler.ARSoundFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSoundFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE54F9E287A3972008031C3 /* Build configuration list for PBXProject "ARSoundFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE54FCA287A3974008031C3 /* Debug */,
+				FCE54FCB287A3974008031C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE54FCC287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE54FCD287A3974008031C3 /* Debug */,
+				FCE54FCE287A3974008031C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE54FCF287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE54FD0287A3974008031C3 /* Debug */,
+				FCE54FD1287A3974008031C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE54FD2287A3974008031C3 /* Build configuration list for PBXNativeTarget "ARSoundFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE54FD3287A3974008031C3 /* Debug */,
+				FCE54FD4287A3974008031C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE54F9B287A3972008031C3 /* Project object */;
+}

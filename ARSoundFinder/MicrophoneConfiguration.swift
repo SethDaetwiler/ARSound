@@ -17,8 +17,18 @@ public func setupMicrophone() -> AVAudioSession?{
     
     do {
         try session.setPreferredInput(builtInMicInput)
+        try session.setCategory(.playAndRecord)
+        try session.setActive(true)
     } catch{
         print("Unable to set built-in mic as prefered")
     }
+    
+    session.requestRecordPermission { response in
+        print(response)
+        if response == false {
+            return
+        }
+    }
+    
     return session
 }
